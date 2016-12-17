@@ -1,3 +1,11 @@
+<style lang='scss'>
+    @import '../assets/global.scss';
+    
+    div {
+        color: $color-blue;
+    }
+</style>
+
 <template>
     <div>
         {{ message }}
