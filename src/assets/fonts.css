@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Din';
+    font-weight: normal;
+    src: url(fonts/DIN55.otf)
+}
+
+@font-face {
+    font-family: 'Din';
+    font-weight: bold;
+    src: url(fonts/DIN75.otf);
+}
+
+@font-face {
+    font-family: 'Din B';
+    font-weight: normal;
+    src: url(fonts/DinB-Light_0.otf);
+}
+
+@font-face {
+    font-family: 'Din B';
+    font-weight: lighter;
+    src: url(fonts/DinB-ExtraLight_0.otf);
+}
