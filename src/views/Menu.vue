@@ -8,7 +8,7 @@
 
     .double-text {
         $shift: 205px;
-        margin-top: 50px;
+        margin-top: $wrapper-offset;
         width: $shift + 305px;
 
         &__blue {
