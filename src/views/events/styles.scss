@@ -1,0 +1,52 @@
+@import '../../assets/global.scss';
+
+.paper {
+    display: flex;
+    margin-top: 50px;
+
+    &__half {
+        width: 50%;
+        padding: 10px;
+    }
+
+    &__page {
+        padding: 10px;
+    }
+
+    &__illustrations {
+        @extend .paper__half;
+        float: right;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    p {
+        @extend .ftext;
+        text-align: justify;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+
+    a {
+        @extend .fheader;
+        text-transform: uppercase;
+    }
+
+    &--ru {
+        color: $color-black;
+    }
+
+    &--en {
+        color: $color-blue;
+    }
+
+    b {
+        @extend .fheader;
+    }
+}

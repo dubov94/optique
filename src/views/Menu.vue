@@ -26,12 +26,12 @@
                     <div class="double-text__black">
                         <router-link to="/cinema">Кино</router-link><br>
                         <router-link to="/people">Люди</router-link><br>
-                        <router-link to="/events">События</router-link><br>
+                        <router-link to="/events/index">События</router-link><br>
                     </div>
                     <div class="double-text__blue">
                         <router-link to="/cinema">Cinema</router-link><br>
                         <router-link to="/people">People</router-link><br>
-                        <router-link to="/events">Events</router-link><br>
+                        <router-link to="/events/index">Events</router-link><br>
                     </div>
                 </div>
             </div>
