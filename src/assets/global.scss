@@ -1,5 +1,6 @@
 $color-blue: rgb(10, 16, 250);
 $color-black: rgb(0, 0, 0);
+$color-white: rgb(255, 255, 255);
 $page-width: 700px;
 $logo-height: 25px;
 
@@ -52,4 +53,12 @@ $wrapper-offset: 100px;
         
         color: $color-blue;
     }
+}
+
+.abs-full {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }

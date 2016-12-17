@@ -23,7 +23,38 @@
         height: 150px;
 
         &__cover {
-            position: absolute;
+            @extend .abs-full;
+
+            background: $color-white;
+            opacity: 0;
+            transition: all 250ms ease;
+
+            &:hover {
+                opacity: 1;
+            }
+
+            $border-width: 10px;
+            &::after {
+                @extend .abs-full;
+                content: '';
+                border: $border-width solid $color-blue;
+            }
+
+            &[data-x='0']::after {
+                left: -$border-width;
+            }
+
+            &[data-y='0']::after {
+                top: -$border-width;
+            }
+
+            &[data-x='2']::after {
+                right: -$border-width;
+            }
+
+            &[data-y='2']::after {
+                bottom: -$border-width;
+            }
         }
     }
 </style>
@@ -33,9 +64,9 @@
         <div class="wrapper">
             <c-header :title="['Люди', 'People']" :oq="true"></c-header>
             <div class="heroes">
-                <div v-for="hero in heroes"
+                <div v-for="(hero, index) in heroes"
                      :class="'hero hero--' + hero">
-                    <div class="hero__cover">
+                    <div class="hero__cover" :data-x="index % 3" :data-y="Math.floor(index / 3)">
 
                     </div>
                 </div>
