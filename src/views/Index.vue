@@ -1,23 +1,13 @@
-<style lang='scss'>
+<style lang='scss' scoped>
     @import '../assets/global.scss';
-    
-    div {
-        color: $color-blue;
-    }
 </style>
 
 <template>
-    <div>
-        {{ message }}
+    <div class="container--focus">
+        <Header :title="null"></Header>
     </div>
 </template>
 
 <script>
-export default {
-    data () {
-        return {
-            message: 'Hello, world!'
-        }
-    }
-}
+    import Header from '../components/Header.vue'
 </script>
