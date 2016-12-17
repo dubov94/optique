@@ -6,9 +6,21 @@
         display: flex;
     }
 
+    .caption {
+        text-transform: uppercase;
+        font-family: 'Din B';
+        font-size: 14pt;
+
+        &--blue {
+            color: $color-blue;
+            margin-top: -7px;
+        }
+    }
+
     .title {
         position: absolute;
         right: calc(100% + 20px);
+        direction: rtl;
     }
 
     .oq {
@@ -25,17 +37,6 @@
         position: absolute;
         left: calc(100% + 20px);
 
-        &__caption {
-            text-transform: uppercase;
-            font-family: 'Din B';
-            font-size: 14pt;
-            
-            &--blue {
-                color: $color-blue;
-                margin-top: -7px;
-            }
-        }
-
         &__icon {
             margin-top: 7px;
 
@@ -50,9 +51,14 @@
 <template>
     <div class="header">
         <div class="title">
-            <span v-if="title !== null">
-                {{ title }}
-            </span>
+            <div class="caption" v-if="title !== null">
+                <div class="caption--black">
+                    {{ title[0] }}
+                </div>
+                <div class="caption--blue">
+                    {{ title[1] }}
+                </div>
+            </div>
         </div>
         <div class="oq">
             <router-link to="/">
@@ -61,11 +67,11 @@
         </div>
         <div class="menu">
             <router-link to="/menu">
-                <div class="menu__caption">
-                    <div class="menu__caption--black">
+                <div class="caption">
+                    <div class="caption--black">
                         Меню
                     </div>
-                    <div class="menu__caption--blue">
+                    <div class="caption--blue">
                         Menu
                     </div>
                 </div>
