@@ -1,11 +1,13 @@
 var path = require('path')
 var webpack = require('webpack')
 
+var publicPath = '/optique/dist/'
+
 module.exports = {
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/optique/dist/',
+    publicPath: publicPath,
     filename: 'build.js'
   },
   module: {
@@ -33,7 +35,8 @@ module.exports = {
         test: /\.(png|jpg|gif|svg|otf)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]?[hash]'
+          name: '[name].[ext]?[hash]',
+          publicPath: publicPath
         }
       }
     ]
