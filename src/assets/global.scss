@@ -1,6 +1,12 @@
 $color-blue: rgb(10, 16, 250);
-$page-width: 690px;
+$color-black: rgb(0, 0, 0);
+$page-width: 700px;
 $logo-height: 25px;
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .container--center {
     margin-top: 36px;
@@ -11,4 +17,36 @@ $logo-height: 25px;
 
 .wrapper {
     width: $page-width;
+}
+
+.double-text {
+    $shift: 46px;
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: $shift;
+
+    &__black, &__blue {
+        font-family: 'Din';
+        font-weight: bold;
+        font-size: 60pt;
+        line-height: 62pt;
+    }
+
+    &__blue {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    &__black {
+        height: 0;
+        overflow: visible;
+    }
+
+    &__blue {
+        color: $color-blue;
+        top: $shift;
+    }
 }

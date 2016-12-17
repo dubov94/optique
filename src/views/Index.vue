@@ -1,36 +1,12 @@
 <style lang="scss" scoped>
     @import '../assets/global.scss';
 
-    $shift: 46px;
-    
-    .main {
-        position: relative;
-        text-transform: uppercase;
-
-        &--black, &--blue {
-            text-align: center;
-            font-family: 'Din';
-            font-weight: bold;
-            font-size: 60pt;
-            line-height: 62pt;
-        }
-
-        &--blue {
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            z-index: -1;
-        }
-
-        &--blue {
-            color: $color-blue;
-            top: $shift;
-        }
+    .double-text {
+        text-align: center;
     }
-
+    
     .footer {
-        margin-top: calc(41px + #{$shift});
+        margin-top: 41px;
         text-align: center;
 
         > img {
@@ -43,9 +19,9 @@
 <template>
     <div class="container--center">
         <div class="wrapper">
-            <c-header></c-header>
-            <div class="main">
-                <div class="main--black">
+            <c-header :title="null" :oq="false"></c-header>
+            <div class="double-text">
+                <div class="double-text__black">
                     Тысяча<br>
                     восемьсот<br>
                     девяносто вто-<br>
@@ -53,7 +29,7 @@
                     горианскому<br>
                     календарю
                 </div>
-                <div class="main--blue">
+                <div class="double-text__blue">
                     One thousand<br>
                     eight hundred<br>
                     and ninety-sec-<br>
