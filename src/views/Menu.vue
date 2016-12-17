@@ -9,10 +9,7 @@
     .double-text {
         $shift: 205px;
         margin-top: 50px;
-
-        &__black {
-            width: $shift + 305px;
-        }
+        width: $shift + 305px;
 
         &__blue {
             left: $shift;

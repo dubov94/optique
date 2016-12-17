@@ -22,7 +22,6 @@ a {
 .double-text {
     $shift: 46px;
     position: relative;
-    text-transform: uppercase;
     padding-bottom: $shift;
 
     &__black, &__blue {
@@ -30,23 +29,25 @@ a {
         font-weight: bold;
         font-size: 60pt;
         line-height: 62pt;
+        text-transform: uppercase;
+    }
+
+    &__black {
+        position: relative;
+        z-index: 1;
+
+        pointer-events: none;
+        a {
+            pointer-events: auto;
+        }
     }
 
     &__blue {
         position: absolute;
-        top: 0;
+        top: $shift;
         right: 0;
         left: 0;
-        z-index: -1;
-    }
-
-    &__black {
-        height: 0;
-        overflow: visible;
-    }
-
-    &__blue {
+        
         color: $color-blue;
-        top: $shift;
     }
 }
