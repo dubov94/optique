@@ -2,12 +2,7 @@
 
 .paper {
     display: flex;
-    margin-top: 50px;
-
-    &__half {
-        width: 50%;
-        padding: 10px;
-    }
+    margin-top: $top-offset;
 
     &__page {
         padding: 10px;
@@ -24,15 +19,6 @@
         }
     }
 
-    p {
-        @extend .ftext;
-        text-align: justify;
-
-        &:first-of-type {
-            margin-top: 0;
-        }
-    }
-
     a {
         @extend .fheader;
         text-transform: uppercase;
@@ -44,9 +30,5 @@
 
     &--en {
         color: $color-blue;
-    }
-
-    b {
-        @extend .fheader;
     }
 }

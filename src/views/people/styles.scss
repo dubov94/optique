@@ -1,0 +1,27 @@
+@import '../../assets/global.scss';
+
+.title {
+    margin-top: $top-offset;
+    
+    > div {
+        @extend .fheader;
+        text-align: center;
+
+        &:first-of-type {
+            color: $color-black;
+        }
+
+        &:last-of-type {
+            color: $color-blue;
+        }
+    }
+}
+
+.paper--person {
+    img {
+        float: left;
+        width: $page-width / 3;
+        margin: 10px 10px 0 0;
+        height: auto;
+    }
+}

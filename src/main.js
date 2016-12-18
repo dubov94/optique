@@ -13,6 +13,8 @@ import EventsSkladanowsky from './views/events/Skladanowsky.vue'
 import EventsTheatre from './views/events/Theatre.vue'
 
 import People from './views/People.vue'
+import PeopleIndex from './views/people/Index.vue'
+import PeopleHardy from './views/people/Hardy.vue'
 
 Vue.use(VueRouter)
 
@@ -28,7 +30,12 @@ const routes = [
       { path: 'theatre/:lang', component: EventsTheatre }
     ]
   },
-  { path: '/people', component: People }
+  { path: '/people', component: People,
+    children: [
+      { path: 'index', component: PeopleIndex },
+      { path: 'hardy', component: PeopleHardy }
+    ]
+  }
 ]
 
 const router = new VueRouter({

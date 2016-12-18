@@ -3,6 +3,7 @@ $color-black: rgb(0, 0, 0);
 $color-white: rgb(255, 255, 255);
 $page-width: 750px;
 $logo-height: 25px;
+$top-offset: 50px;
 
 a {
     text-decoration: none;
@@ -77,7 +78,12 @@ $wrapper-offset: 100px;
 }
 
 .paper {
-    .paper__half {
+    display: flex;
+
+    &__half {
+        width: 50%;
+        padding: 10px;
+
         &:first-of-type {
             color: $color-black;
             a { color: $color-blue; }
@@ -86,6 +92,19 @@ $wrapper-offset: 100px;
         &:last-of-type {
             color: $color-blue;
             a { color: $color-black; }
+        }
+
+        p {
+            @extend .ftext;
+            text-align: justify;
+
+            &:first-of-type {
+                margin-top: 0;
+            }
+        }
+        
+        b {
+            @extend .fheader;
         }
     }
 }
