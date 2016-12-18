@@ -10,7 +10,7 @@
         </div>
         <div class="paper paper--article">
             <div class="paper__half">
-<p><b>«Кружка пива»</b> — немой короткометражный мультфильм режиссёра Эмиля Рено. Мультфильм состоит из 700 раскрашенных вручную сцен. Премьера прошла в Музее Гревен, Франция в 1892 году.
+<p>Немой короткометражный мультфильм режиссёра Эмиля Рено. Мультфильм состоит из 700 раскрашенных вручную сцен. Премьера прошла в Музее Гревен, Франция в 1892 году.
 Интересные факты
 Это один из первых анимационных фильмов в мире.
 Мультфильм считается утерянным. Не сохранилось ни одной копии фильма.
@@ -18,7 +18,7 @@
 Это самая первая презентация с манипулированием изображением.</p>
             </div>
             <div class="paper__half">
-<p><b>Un bon bock</b> (aka A Good Beer) is an 1892 French short animated film directed by Émile Reynaud. Painted in 1888, it was first screened on October 28th, 1892, using the Théâtre Optique process, which allowed him to project a hand-painted colored film, before the invention of cinematograph.</p>
+<p>It is an 1892 French short animated film directed by Émile Reynaud. Painted in 1888, it was first screened on October 28th, 1892, using the Théâtre Optique process, which allowed him to project a hand-painted colored film, before the invention of cinematograph.</p>
 <p><b>Around the film</b><br>
 It consists of 700 individually painted images and lasts about 15 minutes.
 It is one of the first animated films ever made and was the first to be screened on Reynaud’s modified praxinoscope, the Théâtre Optique, translated as “optical theatre”.
