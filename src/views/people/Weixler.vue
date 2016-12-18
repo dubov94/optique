@@ -8,7 +8,7 @@
             <div>{{ names[0] }}\</div>
             <div>\{{ names[1] }}</div>
         </div>
-        <div class="paper paper--person">
+        <div class="paper paper--article">
             <div class="paper__half">
 <img src="../../assets/images/heroes/weixler.png">
             </div>

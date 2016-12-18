@@ -10,14 +10,14 @@
 <template>
     <div class="double-text">
         <div class="double-text__black">
-            &laquo;Бедный Пьеро&raquo;<br>
-            &laquo;Клоун и его собачки&raquo;<br>
-            &laquo;Кружка пива&raquo;
+            <router-link to="/cinema/pierrot">&laquo;Бедный Пьеро&raquo;</router-link><br>
+            <router-link to="/cinema/clown">&laquo;Клоун и его собачки&raquo;</router-link><br>
+            <router-link to="/cinema/bock">&laquo;Кружка пива&raquo;</router-link>
         </div>
         <div class="double-text__blue">
-            Pauvre Pierrot<br>
-            Clown et ses chiens<br>
-            Un bon bock
+            <router-link to="/cinema/pierrot">Pauvre Pierrot</router-link><br>
+            <router-link to="/cinema/clown">Clown et ses chiens</router-link><br>
+            <router-link to="/cinema/bock">Un bon bock</router-link>
         </div>
     </div>
 </template>

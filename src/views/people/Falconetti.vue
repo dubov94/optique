@@ -8,7 +8,7 @@
             <div>{{ names[0] }}\</div>
             <div>\{{ names[1] }}</div>
         </div>
-        <div class="paper paper--person">
+        <div class="paper paper--article">
             <div class="paper__half">
 <img src="../../assets/images/heroes/falconetti.png">
 <p><b>Рене Жанна Фалько&shy;нетти</b> (фр. Renée Jeanne Falconetti, известна как Фальконетти, Мадемуазель Фальконетти, Рене Фальконетти, Мария Фальконетти; 21 июля 1892, Пантен, Сена-Сен-Дени — 12 декабря 1946, Буэнос-Айрес) — французская актриса, прославленная исполнением главной роли в фильме Карла-Теодора Дрейера «Страсти Жанны д’Арк».</p>

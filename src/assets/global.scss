@@ -107,4 +107,29 @@ $wrapper-offset: 100px;
     b {
         @extend .fheader;
     }
+
+    &--article {
+        .title {
+            margin-top: $top-offset;
+            
+            > div {
+                @extend .fheader;
+                text-align: center;
+
+                &:first-of-type {
+                    color: $color-black;
+                }
+
+                &:last-of-type {
+                    color: $color-blue;
+                }
+            }
+        }
+        img {
+            float: left;
+            width: $page-width / 3;
+            margin: 10px 10px 0 0;
+            height: auto;
+        }
+    }
 }

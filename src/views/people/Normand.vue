@@ -8,7 +8,7 @@
             <div>{{ names[0] }}\</div>
             <div>\{{ names[1] }}</div>
         </div>
-        <div class="paper paper--person">
+        <div class="paper paper--article">
             <div class="paper__half">
 <img src="../../assets/images/heroes/normand.png">
 <p><b>Мэйбл Норманд</b> (англ. Mabel Normand, 9 ноября 1892 — 23 февраля 1930) — американская комедийная актриса немого кино, а также сценарист, продюсер и режиссёр. Мэйбл достигла большой популярности на студии Мака Саннета «Keystone Studios», а на пике своей карьеры в конце 1910-х и начале 1920-х годов она также была владелицей собственной киностудии.

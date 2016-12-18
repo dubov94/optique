@@ -8,7 +8,7 @@
             <div>{{ names[0] }}\</div>
             <div>\{{ names[1] }}</div>
         </div>
-        <div class="paper paper--person">
+        <div class="paper paper--article">
             <div class="paper__half">
 <img src="../../assets/images/heroes/hardy.png">
 <p><b>Оливер Харди</b> (18 января 1892 — 7 августа 1957) — аме&shy;риканский комедийный актёр, став&shy;ший извест&shy;ным благо&shy;даря комическому дуэту Лорел и Харди, в котором он выступал более 30 лет.</p>
