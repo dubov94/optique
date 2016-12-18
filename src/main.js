@@ -16,6 +16,7 @@ import People from './views/People.vue'
 import PeopleIndex from './views/people/Index.vue'
 import PeopleHardy from './views/people/Hardy.vue'
 import PeopleWeixler from './views/people/Weixler.vue'
+import PeopleWarner from './views/people/Warner.vue'
 
 Vue.use(VueRouter)
 
@@ -35,7 +36,7 @@ const routes = [
     children: [
       { path: 'index', component: PeopleIndex },
       { path: 'hardy', component: PeopleHardy },
-      { path: 'weixler', component: PeopleWeixler }
+      { path: 'warner', component: PeopleWarner }
     ]
   }
 ]
