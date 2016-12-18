@@ -4,7 +4,12 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Index from './views/Index.vue'
 import Menu from './views/Menu.vue'
+
 import Cinema from './views/Cinema.vue'
+import CinemaIndex from './views/cinema/Index.vue'
+import CinemaPierrot from './views/cinema/Pierrot.vue'
+import CinemaClown from './views/cinema/Clown.vue'
+import CinemaBock from './views/cinema/Bock.vue'
 
 import Events from './views/Events.vue'
 import EventsIndex from './views/events/Index.vue'
@@ -29,7 +34,14 @@ Vue.use(VueRouter)
 const routes = [
   { path: '/', component: Index },
   { path: '/menu', component: Menu },
-  { path: '/cinema', component: Cinema },
+  { path: '/cinema', component: Cinema,
+    children: [
+      { path: 'index', component: CinemaIndex },
+      { path: 'pierrot', component: CinemaPierrot },
+      { path: 'clown', component: CinemaClown },
+      { path: 'bock', component: CinemaBock }
+    ]
+  },
   { path: '/events', component: Events,
     children: [
       { path: 'index', component: EventsIndex },
