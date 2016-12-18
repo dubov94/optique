@@ -4,7 +4,7 @@
 
 <template>
     <div>
-        <div class="title">
+        <div class="paper__title">
             <div>{{ names[0] }}\</div>
             <div>\{{ names[1] }}</div>
         </div>
