@@ -21,3 +21,7 @@
     font-weight: lighter;
     src: url(fonts/DinB-ExtraLight_0.otf);
 }
+
+body {
+    overflow-y: scroll;
+}
