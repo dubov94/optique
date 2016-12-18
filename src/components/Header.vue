@@ -52,12 +52,14 @@
     <div class="header">
         <div class="title">
             <div class="caption" v-if="title !== null">
-                <div class="caption--black">
-                    {{ title[0] }}
-                </div>
-                <div class="caption--blue">
-                    {{ title[1] }}
-                </div>
+                <router-link :to="address">
+                    <div class="caption--black">
+                        {{ title[0] }}
+                    </div>
+                    <div class="caption--blue">
+                        {{ title[1] }}
+                    </div>
+                </router-link>
             </div>
         </div>
         <div class="oq">
@@ -85,6 +87,6 @@
 
 <script>
     export default {
-        props: ['title', 'oq']
+        props: ['title', 'oq', 'address']
     }
 </script>

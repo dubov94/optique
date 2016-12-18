@@ -5,7 +5,7 @@
 <template>
     <div class="container--center">
         <div class="wrapper">
-            <c-header :title="['События', 'Events']" :oq="true"></c-header>
+            <c-header :title="['События', 'Events']" :oq="true" address="/events/index"></c-header>
             <router-view></router-view>
         </div>
     </div>
