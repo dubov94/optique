@@ -119,6 +119,7 @@ $wrapper-offset: 100px;
 
     &__title {
         margin-top: $top-offset;
+        text-transform: uppercase;
         
         > div {
             @extend .fheader;

@@ -11,7 +11,7 @@
         <div class="paper paper--article">
             <div class="paper__half">
 <img src="../../assets/images/heroes/falconetti.png">
-<p><b>Рене Жанна Фалько&shy;нетти</b> (фр. Renée Jeanne Falconetti, известна как Фальконетти, Мадемуазель Фальконетти, Рене Фальконетти, Мария Фальконетти; 21 июля 1892, Пантен, Сена-Сен-Дени — 12 декабря 1946, Буэнос-Айрес) — французская актриса, прославленная исполнением главной роли в фильме Карла-Теодора Дрейера «Страсти Жанны д’Арк».</p>
+<p>Рене Жанна Фалько&shy;нетти (фр. Renée Jeanne Falconetti, известна как Фальконетти, Мадемуазель Фальконетти, Рене Фальконетти, Мария Фальконетти; 21 июля 1892, Пантен, Сена-Сен-Дени — 12 декабря 1946, Буэнос-Айрес) — французская актриса, прославленная исполнением главной роли в фильме Карла-Теодора Дрейера «Страсти Жанны д’Арк».</p>
 <p><b>Биография</b><br>
 В 1912 году, вопреки воле семьи, прошла прослушивание и была принята в Национальную Консерваторию (класс Эжена Сильвэна, затем М-ль дю Менсиль). Одним из «кумиров» Фальконетти была Габриэль Режан.
 На театральных подмостках — с 1913 года.
@@ -30,7 +30,7 @@
 По словам кинокритика Полин Кейл, работа Фальконетти в фильме Дрейера — «возможно, самая лучшая актёрская игра, когда-либо заснятая на плёнку».</p>
             </div>
             <div class="paper__half">
-<p><b>Renée Jeanne Falconetti</b>  (July 21, 1892 – December 12, 1946), sometimes credited as Maria Falconetti,  Marie Falconetti,  Renée Maria Falconetti,  or, simply, Falconetti, was a French stage and film actress, notable for her role as Joan of Arc in Carl Theodor Dreyer’s 1928 silent film, La Passion de Jeanne d’Arc.
+<p>Renée Jeanne Falconetti  (July 21, 1892 – December 12, 1946), sometimes credited as Maria Falconetti,  Marie Falconetti,  Renée Maria Falconetti,  or, simply, Falconetti, was a French stage and film actress, notable for her role as Joan of Arc in Carl Theodor Dreyer’s 1928 silent film, La Passion de Jeanne d’Arc.
 Born in Pantin, Seine-Saint-Denis, Falconetti became a stage actress in Paris in 1918. By the time Dreyer watched her act in an amateur theater and selected her as his leading lady in his upcoming production La Passion de Jeanne d’Arc, she was already a celebrated stage artiste, and had appeared in one film, La Comtesse de Somerive (1917), directed by Georges Denola and Jean Kemm. Falconetti was 35 years old when she played the role of 19-year-old Joan of Arc in La Passion. Her portrayal is widely considered one of the most astonishing performances ever committed to film, and it would remain her final cinematic role.
 Many writers have claimed that Falconetti’s performance was the result of extreme cruelty at the hands of Dreyer, a notoriously demanding director who pushed her to the brink of emotional collapse. For example, film critic Roger Ebert writes,
 For Falconetti, the performance was an ordeal. Legends from the set tell of Dreyer forcing her to kneel painfully on stone and then wipe all expression from her face – so that the viewer would read suppressed or inner pain. He filmed the same shots again and again, hoping that in the editing room he could find exactly the right nuance in her facial expression. 

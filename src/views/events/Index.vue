@@ -23,7 +23,7 @@
                 к 1909 году основной технической характеристикой всех немых фильмов.
             </p>
             <p>
-                &nbsp;<router-link to="/events/skladanowsky/ru">Макс Складановский</router-link> вносит усовер&shy;шенствования в свою камеру и снимает
+                &nbsp;<router-link to="/events/skladanowsky/ru">Макс Складановский</router-link> вносит усо&shy;вершенствования в свою камеру и снимает
                 в этом году свой первый материал. Но его необычный способ построения
                 изображения не даёт ему продемонстрировать полученную картину до конца
                 1895 года, пока не будет завершена работа над возможностью его биоскопа 
@@ -41,7 +41,7 @@
                 for all silent film by 1909.
             </p>
             <p>
-                &nbsp;<router-link to="/events/skladanowsky/en">Max Skladanowsky</router-link> develops a camera and shoots his first footage this year, but
+                &nbsp;<router-link to="/events/skladanowsky/en">Max Skladanowsky</router-link> develops a came&shy;ra and shoots his first footage this year, but
                 its unusual interleaved image format leaves him ultimately unable to exhibit it
                 until work is completed on the Bioskop projector in late 1895.
             </p>

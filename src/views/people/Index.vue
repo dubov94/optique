@@ -65,6 +65,7 @@
                 
                 > span {
                     @extend .fheader;
+                    text-transform: uppercase;
 
                     &:first-of-type {
                         color: $color-black;

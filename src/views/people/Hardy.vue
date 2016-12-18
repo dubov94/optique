@@ -4,14 +4,14 @@
 
 <template>
     <div>
-        <div class="title">
+        <div class="paper__title">
             <div>{{ names[0] }}\</div>
             <div>\{{ names[1] }}</div>
         </div>
         <div class="paper paper--article">
             <div class="paper__half">
 <img src="../../assets/images/heroes/hardy.png">
-<p><b>Оливер Харди</b> (18 января 1892 — 7 августа 1957) — аме&shy;риканский комедийный актёр, став&shy;ший извест&shy;ным благо&shy;даря комическому дуэту Лорел и Харди, в котором он выступал более 30 лет.</p>
+<p>Оливер Харди (18 января 1892 — 7 августа 1957) — аме&shy;риканский комедийный актёр, став&shy;ший извест&shy;ным благо&shy;даря комическому дуэту Лорел и Харди, в котором он выступал более 30 лет.</p>
 <p><b>Юные годы</b><br>
 Норвел Харди появился на све­­­т 18 января 1892 года в небольшом городе Гарлем в штате Джорджия. Его отец, Оливер Харви, был ветераном Гражданской войны в США, участником сражения при Энтитеме, а мать, Эмили Норвел, была представительницей старейшей семьи в штате, а среди её предков был капитан Хью Норвел, участвовавший ещё в колониальных войнах в XVIII веке. Норвел был самым младшим из пяти детей в семье, а менее чем через год после его рождения, глава семейства умер.
 Смерть отца всё же не оставила семью без средств к существованию, так как их мать была успешной владелицей отеля. Будучи ещё мальчишкой, Норвел был отправлен в военную академию в соседний город Милледжвилль, где пробыл до 13 лет. В 1905 году он поступил в методистский колледж в город Янг-Харрис на севере Джорджии, где получил среднее образование. Интереса к получению знаний он не испытывал, зато с юных лет увлекался музыкой и театром. Его мать поддерживала увлечения сына и отправила его в школу-интернат в Атланту, чтобы изучать пение и музыку. Но Норвел часто пропускал занятие и в итоге сбежал из школы и присоединился к странствующей театральной группе. Где-то в 1910 году, в знак уважения к отцу, Норвел прибавил к своему имени имя Оливер, став именоваться Оливер Норвел Харви, а впоследствии и вовсе стал использовать имя отца как собственное.
@@ -46,7 +46,7 @@
 Оливер Харди был масоном, членом ложи «Соломон» № 20 в Джексонвиле, во Флориде.</p>
             </div>
             <div class="paper__half">
-<p><b>Oliver Hardy</b><br>
+<p>Oliver Hardy<br>
 Oliver Norvell “Babe” Hardy (born Norvell Hardy; January 18, 1892 – August 7, 1957) was an American comic actor famous as one half of Laurel and Hardy, the classic double act that began in the era of silent films and lasted 25 years, from 1927 to 1951. He appeared with his comedy partner Stan Laurel in 107 short films, feature films, and cameo roles. He was credited with his first film, Outwitting Dad, in 1914. In some of his early works, he was billed as “Babe Hardy”, using his nickname.</p>
 <p><b>Early life and education</b><br>
 Oliver Hardy was born Norvell Hardy in Harlem, Georgia. His father Oliver was a Confederate veteran who had been wounded at the Battle of Antietam on September 17, 1862. After his demobilization as a recruiting officer for Company K, 16th Georgia Regiment, the elder Oliver Hardy assisted his father in running the vestiges of the family cotton plantation. He bought a share in a retail business and was elected full-time Tax Collector for Columbia County, Georgia. Norvell’s mother Emily Norvell was the daughter of Thomas Benjamin Norvell and Mary Freeman, descended from Captain Hugh Norvell of Williamsburg, Virginia, who had arrived in Virginia before 1635. Hardy and Norvell had married March 12, 1890; it was the second marriage for the widow Emily, and the third for Oliver. He was of paternal English American descent and maternal Scottish American descent.

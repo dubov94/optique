@@ -13,7 +13,7 @@
 <img src="../../assets/images/heroes/weixler.png">
             </div>
             <div class="paper__half">
-<p><b>Dorrit Weixler</b> (27 March 1892 – 30 November 1916) was a German film actress of the early 20th century who is best recalled for her comedic roles in German films from the World War I era.</p>
+<p>Dorrit Weixler (27 March 1892 – 30 November 1916) was a German film actress of the early 20th century who is best recalled for her comedic roles in German films from the World War I era.</p>
 <p><b>Career</b><br>
 The elder sister of actress Grete Weixler, Dorrit Weixler first appeared in silent film shorts for director Alwin Neuß (1879–1935) in 1911. In 1913 she began a successful collaboration with film director Franz Hofer at Luna Film. Hofer began casting Weixler in a number of comedies presenting her as a comedic, temperamental, independent-minded but endearing teenager, often replete in her soon-to-be signature sailor outfit. She often appeared opposite popular German actor and director Ernst Lubitsch and matinee idol Bruno Kastner in her early films with Hofer.[4] Weixler made approximately eleven films with Hofer, and her role as a brassy teen became popular with German filmgoers.
 In 1915 she moved to Oliver Film, but her image was not tampered with significantly. A number of “Dorrit” films were released from 1915 to 1916 which followed her adventures, such as: Dorrit’s Chauffeur (1915), Dorrits Eheglück (English: Dorrit’s Marital Bliss) (1916) and Dorrit bekommt ‘ne Lebensstellung (Dorrit Gets a Job for Life) (1916) for directors such as Paul Otto and Paul Heidemann.</p>

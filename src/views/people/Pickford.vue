@@ -4,14 +4,14 @@
 
 <template>
     <div>
-        <div class="title">
+        <div class="paper__title">
             <div>{{ names[0] }}\</div>
             <div>\{{ names[1] }}</div>
         </div>
         <div class="paper paper--article">
             <div class="paper__half">
 <img src="../../assets/images/heroes/pickford.png">
-<p><b>Мэри Пикфорд</b> (англ. Mary Pickford; 8 апреля 1892 — 29 мая 1979), урождённая Глэ́дис Луи́за Смит — знаменитая кино- и театральная актриса канадского происхождения, соосновательница кинокомпании United Artists. Легенда немого кино. Обладательница премии «Оскар» (1930). Прославилась в амплуа девочек-сорванцов и бедных сироток и лишь в последние несколько лет карьеры перешла на «взрослые» роли. Снялась примерно в 250 фильмах.</p>
+<p>Мэри Пикфорд (англ. Mary Pickford; 8 апреля 1892 — 29 мая 1979), урождённая Глэ́дис Луи́за Смит — знаменитая кино- и театральная актриса канадского происхождения, соосновательница кинокомпании United Artists. Легенда немого кино. Обладательница премии «Оскар» (1930). Прославилась в амплуа девочек-сорванцов и бедных сироток и лишь в последние несколько лет карьеры перешла на «взрослые» роли. Снялась примерно в 250 фильмах.</p>
 <p><b>Биография</b><br>
 Будущая актриса родилась 8 апреля 1892 года в Торонто, при рождении получив имя Глэдис. Её отец Джон Чарльз Смит был сыном методистов, эмигрировавших в Канаду из Великобритании. Он был разнорабочим, много пил и умер 11 февраля 1898 года от кровоизлияния в мозг, когда служил казначеем на пароходе. Мать, Шарлотта Хеннесси, происходила из семьи ирландских католиков и зарабатывала на жизнь шитьём. У Глэдис были младшие брат и сестра — Джек и Лотти, — которые впоследствии взяли фамилию из её псевдонима и тоже стали актёрами. По решению матери, которая хотела угодить родственникам с обеих сторон, Глэдис прошла обряд крещения в двух церквях — методистской и католической. Тогда же её среднее имя было изменено на Мари.</p>
 <p><b>Творческая карьера</b><br>
@@ -60,7 +60,7 @@
 Незадолго до смерти Пикфорд обратилась к правительству Канады с просьбой восстановить её гражданство, которое, как она считала, было утеряно после брака с Фэрбенксом, американским гражданином. Канада удовлетворила просьбу знаменитой соотечественницы, и таким образом на закате жизни у неё появилось двойное гражданство. Мэри Пикфорд — любимица Америки, когда-то обожаемая миллионами — скончалась от кровоизлияния в мозг 29 мая 1979 года в возрасте восьмидесяти семи лет. Она была похоронена на кладбище мемориального парка Форест-Лаун в Калифорнии на том же участке, где покоились её мать, брат и сестра.</p>
             </div>
             <div class="paper__half">
-<p><b>Gladys Louise Smith</b> (April 8, 1892 – May 29, 1979), known professionally as Mary Pickford, was a Canadian-American film actress, writer, director, and producer. She was a co-founder of the film studio United Artists and one of the original 36 founders of the Academy of Motion Picture Arts and Sciences. 
+<p>Gladys Louise Smith (April 8, 1892 – May 29, 1979), known professionally as Mary Pickford, was a Canadian-American film actress, writer, director, and producer. She was a co-founder of the film studio United Artists and one of the original 36 founders of the Academy of Motion Picture Arts and Sciences. 
 Known in her prime as “America’s Sweetheart”   and the “girl with the curls”,  Pickford was one of the Canadian pioneers in early Hollywood and a significant figure in the development of film acting. Pickford was one of the earliest stars to be billed under her name (film performers up until that time were usually unbilled), and was one of the most popular actresses of the 1910s and ‘20s, earning the nickname “Queen of the Movies”.
 She was awarded the second ever Academy Award for Best Actress for her first sound film role in Coquette (1929) and also received an honorary Academy Award in 1976. In consideration of her contributions to American cinema, the American Film Institute ranked Pickford as 24th in its 1999 list of greatest female stars of classic Hollywood Cinema.</p>
 <p><b>Early life</b><br>
