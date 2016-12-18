@@ -93,18 +93,18 @@ $wrapper-offset: 100px;
             color: $color-blue;
             a { color: $color-black; }
         }
+    }
 
-        p {
-            @extend .ftext;
-            text-align: justify;
+    p {
+        @extend .ftext;
+        text-align: justify;
 
-            &:first-of-type {
-                margin-top: 0;
-            }
+        &:first-of-type {
+            margin-top: 0;
         }
-        
-        b {
-            @extend .fheader;
-        }
+    }
+    
+    b {
+        @extend .fheader;
     }
 }
