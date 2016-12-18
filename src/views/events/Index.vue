@@ -3,16 +3,6 @@
 
     .paper--list {
         .paper__half {
-            &:first-of-type {
-                color: $color-black;
-                a { color: $color-blue; }
-            }
-
-            &:last-of-type {
-                color: $color-blue;
-                a { color: $color-black; }
-            }
-
             p {
                 &::before {
                     content: '\2022';

@@ -27,7 +27,7 @@
 
             background: $color-white;
             opacity: 0;
-            transition: all 250ms ease;
+            transition: all 500ms ease;
 
             &:hover {
                 opacity: 1;
@@ -55,6 +55,26 @@
             &[data-y='2']::after {
                 bottom: -$border-width;
             }
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            > div {
+                text-align: center;
+                
+                > span {
+                    @extend .fheader;
+
+                    &:first-of-type {
+                        color: $color-black;
+                    }
+
+                    &:last-of-type {
+                        color: $color-blue;
+                    }
+                }
+            }
         }
     }
 </style>
@@ -65,10 +85,15 @@
             <c-header :title="['Люди', 'People']" :oq="true"></c-header>
             <div class="heroes">
                 <div v-for="(hero, index) in heroes"
-                     :class="'hero hero--' + hero">
-                    <div class="hero__cover" :data-x="index % 3" :data-y="Math.floor(index / 3)">
-
-                    </div>
+                     :class="'hero hero--' + hero.id">
+                    <router-link :to="'/people/' +  hero.id">
+                        <div class="hero__cover" :data-x="index % 3" :data-y="Math.floor(index / 3)">
+                            <div>
+                                <span>{{ hero.names[0] }}\</span><br>
+                                <span>\{{ hero.names[1] }}</span>
+                            </div>
+                        </div>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -82,16 +107,16 @@
         data() {
             return {
                 heroes: [
-                    'hardy',
-                    'weixler',
-                    'warner',
-                    'pickford',
-                    'falconetti',
-                    'aoki',
-                    'stonehouse',
-                    'shipman',
-                    'normand'
-                ]
+                    { id: 'hardy', names: ['Оливер Харди', 'Oliver Hardy'] },
+                    { id: 'weixler', names: ['Доррит Векслер', 'Dorrit Weixler'] },
+                    { id: 'warner', names: ['Джек Уорнер', 'Jack Warner'] },
+                    { id: 'pickford', names: ['Мэри Пикфорд', 'Mary Pickford'] },
+                    { id: 'falconetti', names: ['Рене Фальконетти', 'Renée Falconetti'] },
+                    { id: 'aoki', names: ['Цуруки Аоки', 'Tsuruko Aoki'] },
+                    { id: 'stonehouse', names: ['Рут Стоунхаус', 'Ruth Stonehouse'] },
+                    { id: 'shipman', names: ['Нелл Шипман', 'Nell Shipman'] },
+                    { id: 'normand', names: ['Мэйбл Норманд', 'Mable Normand'] }
+                ],
             }
         },
         components: {
