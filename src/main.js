@@ -18,6 +18,7 @@ import PeopleHardy from './views/people/Hardy.vue'
 import PeopleWeixler from './views/people/Weixler.vue'
 import PeopleWarner from './views/people/Warner.vue'
 import PeoplePickford from './views/people/Pickford.vue'
+import PeopleFalconetti from './views/people/Falconetti.vue'
 
 Vue.use(VueRouter)
 
@@ -39,7 +40,8 @@ const routes = [
       { path: 'hardy', component: PeopleHardy },
       { path: 'weixler', component: PeopleWeixler },
       { path: 'warner', component: PeopleWarner },
-      { path: 'pickford', component: PeoplePickford }
+      { path: 'pickford', component: PeoplePickford },
+      { path: 'falconetti', component: PeopleFalconetti }
     ]
   }
 ]
