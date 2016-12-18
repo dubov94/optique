@@ -19,6 +19,10 @@ import PeopleWeixler from './views/people/Weixler.vue'
 import PeopleWarner from './views/people/Warner.vue'
 import PeoplePickford from './views/people/Pickford.vue'
 import PeopleFalconetti from './views/people/Falconetti.vue'
+import PeopleAoki from './views/people/Aoki.vue'
+import PeopleStonehouse from './views/people/Stonehouse.vue'
+import PeopleShipman from './views/people/Shipman.vue'
+import PeopleNormand from './views/people/Normand.vue'
 
 Vue.use(VueRouter)
 
@@ -41,7 +45,11 @@ const routes = [
       { path: 'weixler', component: PeopleWeixler },
       { path: 'warner', component: PeopleWarner },
       { path: 'pickford', component: PeoplePickford },
-      { path: 'falconetti', component: PeopleFalconetti }
+      { path: 'falconetti', component: PeopleFalconetti },
+      { path: 'aoki', component: PeopleAoki },
+      { path: 'stonehouse', component: PeopleStonehouse },
+      { path: 'shipman', component: PeopleShipman },
+      { path: 'normand', component: PeopleNormand }
     ]
   }
 ]

@@ -1,0 +1,71 @@
+<style lang="scss" scoped>
+    @import 'styles.scss';
+</style>
+
+<template>
+    <div>
+        <div class="title">
+            <div>{{ names[0] }}\</div>
+            <div>\{{ names[1] }}</div>
+        </div>
+        <div class="paper paper--person">
+            <div class="paper__half">
+<img src="../../assets/images/heroes/normand.png">
+<p><b>Мэйбл Норманд</b> (англ. Mabel Normand, 9 ноября 1892 — 23 февраля 1930) — американская комедийная актриса немого кино, а также сценарист, продюсер и режиссёр. Мэйбл достигла большой популярности на студии Мака Саннета «Keystone Studios», а на пике своей карьеры в конце 1910-х и начале 1920-х годов она также была владелицей собственной киностудии.
+В 1920-х годах её имя фигурировало в деле об убийстве актёра Уильяма Дезмонда Тейлора. Этот скандал, а также заболевание актрисы туберкулёзом способствовали закату её кинокарьеры в конце 1920-х годов.</p>
+<p><b>Биография</b><br>
+Мэйбл Этельрейд Норманд родилась 9 ноября 1892 года в деревне Нью-Брайтон на острове Статен-Айленд, которая теперь является районом Нью-Йорка. Её отец Клод Норманд работал плотником в порту, и поэтому её детство прошло в крайней бедности. В подростковом возрасте Мэйбл зарабатывала деньги, позируя в качестве модели для открыток графика Чарльза Дана Гибсона. В 1910 году, в возрасте 17 лет, она дебютировала в одном из немых фильмов на студии Д. У. Гриффита «Biograph Company».
+На студии Норманд познакомилась с начинающим актёром Маком Саннетом, а после того, как он в 1912 году открыл собственную киностудию «Keystone Studios», Мэйбл стала одной из главных её звёзд Там она ярко продемонстрировала свой комедийный талант и быстро завоевала любовь у публики. На экранах Мэйбл Норманд часто появлялась с такими комедийными мэтрами, как Гарольд Ллойд, Чарли Чаплин и Роско Арбакл.
+В 1914 году, на пике своей карьеры, Мэйбл Норманд снялась в таких знаменитых немых фильмах, как «Необыкновенно затруднительное положение Мэйбл», «Настигнутый в кабаре», «Деловой день Мэйбл» и «Состоявшееся знакомство».
+В 1918 году, после расставания с Саннетом, Мэйбл подписала контракт с кинопродюсером Сэмюэлем Голдуином на съёмки в кино за $3 500 в неделю, а позже открыла свою собственную киностудию в калифорнийском городе Калвер-сити.
+В начале 1920-х годов Мэйбл стала близкой подругой актёра и режиссёра Уильяма Дезмонда Тейлора. 1 февраля 1922 года, спустя несколько минут после того, как Норманд покинула его дом, Тейлор был убит. Полиция много допрашивала актрису по этому делу, но всё же она никогда не была под подозрением Мэйбл хорошо досталось от газетчиков, которые даже по прошествии времени продолжали обсуждать это убийство, её связь с Тейлором, а также возможные пристрастия актрисы к наркотикам.
+Спустя пару лет, в 1924 году, Мэйбл Норманд опять стала главной темой для обсуждения в газетах — её шофёр Джо Келли ранил из пистолета крупного нефтяника-миллионера Кортленда С. Дайнеса, который в то время встречался с подругой Мэйбл актрисой Эдной Пёрвиэнс.
+Несмотря на множество сплетен и нападок в свой адрес, Мэйбл продолжала сниматься в кино, а в 1926 году подписала контракт со студией «Hal Roach Studios». В том же году Норманд вышла замуж за актёра Лью Коуди, с которым снималась вместе в фильме «Микки» в 1918 году, а также была соседкой по дому в Беверли-Хиллз. В то же время у актрисы начались проблемы со здоровьем, вызванные туберкулёзом. Из-за этого ей пришлось распрощаться с кино и много времени провести в санатории. Несмотря на усердие врачей актрису спасти не удалось, и 23 февраля 1930 года в возрасте 37 лет Мэйбл Норманд умерла.
+За свой вклад в киноиндустрию Мэйбл Норманд удостоена звезды на Голливудской аллее славы.</p>
+<p><b>Интересные факты</b><br>
+Считается что именно Мэйбл Норманд является автором номера с запусканием кремового пирога в лицо. Впервые она осуществила это на съёмочной площадке фильма «Шум из глубины», когда пирог полетел в лицо актёра Роско Арбакла.
+В фильме Билли Уайлдера 1950 года «Бульвар Сансет» главным персонажем является стареющая звезда немого кино Норма Дезмонд. Её имя является сочетанием имён Мэйбл Норманд и Уильяма Дезмонда Тейлора.
+В 1992 году в фильме «Чаплин» роль Мэйбл Норманд исполнила Мариса Томей.</p>
+            </div>
+            <div class="paper__half">
+<p><b>Mabel Normand</b> (November 9, 1892 – February 23, 1930) was an American silent film actress, screenwriter, director, and producer. She was a popular star and collaborator of Mack Sennett in his Keystone Studios  films and, at the height of her career in the late 1910s and early 1920s, had her own movie studio and production company.  Onscreen, she appeared in 12 successful films with Charles Chaplin and 17 with Roscoe “Fatty” Arbuckle, sometimes writing and directing (or co-writing/directing) movies featuring Chaplin as her leading man.  Throughout the 1920s, her name was linked with widely publicized scandals, including the 1922 murder of William Desmond Taylor and the 1924 shooting of Courtland S. Dines, who was shot by Normand’s chauffeur using her pistol. She was not a suspect in either crime. Her film career declined, possibly due to both scandals and a recurrence of tuberculosis in 1923, which led to a decline in her health, retirement from films, and her death in 1930 at age 37.</p>
+<p><b>Early life and career height</b><br>
+Born Mabel Ethelreid Normand in New Brighton, Staten Island, New York, she grew up in a working-class family. Normand’s mother was of Irish heritage, while her father was French Canadian.  Her father Claude Normand was employed as a cabinet maker and stage carpenter at Sailors’ Snug Harbor home for elderly seamen. Before she entered films at age 16 in 1909, Normand worked as an artist’s model, which included posing for postcards illustrated by Charles Dana Gibson, creator of the Gibson Girl image, as well as for Butterick’s clothing pattern manufacturers in lower Manhattan. For a short time, she worked for Vitagraph Studios in New York City for $25 per week, but Vitagraph founder Albert E. Smith admitted she was one of several actresses about whom he made a mistake in estimating their “potential for future stardom.”  Her quietly effervescent lead performance, while directed by D. W. Griffith in the dramatic 1911 short film Her Awakening, drew attention and she met director Mack Sennett while at Griffith’s Biograph Company. She embarked on a topsy-turvy relationship with him; he later brought her across to California when he founded Keystone Studios in 1912. Her earlier Keystone films portrayed her as a bathing beauty but Normand quickly demonstrated a flair for comedy and became a major star of Sennett’s short films. Normand appeared with Charles Chaplin and Roscoe “Fatty” Arbuckle in many short films as well as Oliver Hardy, Stan Laurel, and Boris Karloff.
+She played a key role in starting Chaplin’s film career and acted as his leading lady and mentor in a string of films in 1914, sometimes co-writing and directing or co-directing films with him. Chaplin had considerable initial difficulty adjusting to the demands of film acting and his performance suffered for it. After his first film appearance in Making a Living, Sennett felt he had made a costly mistake.  Most historians agree it was Normand who persuaded him to give Chaplin another chance,  and she and Chaplin appeared together in a dozen subsequent films, almost always as a couple in the lead roles. In 1914, she starred with Marie Dressler and Chaplin in Tillie’s Punctured Romance, the first feature-length comedy. Earlier that same year, in January/February, Chaplin first played his Tramp character in Mabel’s Strange Predicament, although it wound up being the second Tramp film released; Chaplin offers an account of his experience on the film in his autobiography. 
+She opened her own company in partnership with Mack Sennett 1916. It was based in Culver City and was a subsidiary of the Triangle Film Corperation. She lost the company in 1918 when Triangle experienced a massive shake up which also saw Sennett lose Keystone and establish his own independent studio.
+In 1918, as her relationship with Sennett came to an end, Normand signed a $3,500 per week contract with Samuel Goldwyn.</p>
+<p><b>Taylor’s murder</b><br>
+Director William Desmond Taylor shared her interest in books, and the two formed a close relationship. According to author Robert Giroux, Taylor was deeply in love with Normand, who had originally approached him for help in curing her cocaine dependency. Based upon Normand’s subsequent statements to investigators, her repeated relapses were devastating for Taylor. According to Giroux, Taylor met with federal prosecutors shortly before his death and offered to assist them in filing charges against Normand’s cocaine suppliers. Giroux expresses a belief that Normand’s suppliers learned of this meeting and hired a contract killer to murder the director. According to Giroux, Normand suspected the reasons for Taylor’s murder, but did not know the identity of the man who killed him.According to Kevin Brownlow and John Kobal in their book Hollywood The Pioneers the idea that Taylor was murdered by drug dealers was invented by the studio for publicity purposes.  There is no evidence that Normand was an addict, despite the fact that this is often repeated as if it were established fact.
+On the night of his murder, February 1, 1922, Normand left Taylor’s bungalow at 7:45 p.m. in a happy mood, carrying a book he had lent her. They blew kisses to each other as her limousine drove away. Normand was the last person known to have seen Taylor alive. The Los Angeles Police Department subjected Normand to a grueling interrogation, but ruled her out as a suspect.  Most subsequent writers have done the same. However, Normand’s career had already slowed, and her reputation was tarnished. According to George Hopkins, who sat next to her at Taylor’s funeral, Normand wept inconsolably.</p>
+<p><b>The Dines shooting</b><br>
+In 1924, Normand’s chauffeur Joe Kelly shot and wounded millionaire oil broker and amateur golfer Courtland S. Dines with her pistol.  At the time of the shooting, Dines was romantically involved with Normand’s friend (and frequent Chaplin co-star) Edna Purviance. Purviance was also the next door neighbor of William Desmond Taylor.</p>
+<p><b>The Roscoe Arbuckle trials</b><br>
+Normand’s co-star in many films, Roscoe Arbuckle was the defendant in three widely publicized trials for the rape and manslaughter of actress Virginia Rappe. Although Arbuckle was acquitted, the scandal destroyed his career, and his films were banned from exhibition for decades. Since she had made some of her best works with him, much of Normand’s output was withheld from the public by default.</p>
+<p><b>Later career and death</b><br>
+Normand continued making films and was signed by Hal Roach Studios in 1926 after discussions with director/producer F. Richard Jones, who had directed her at Keystone. At Roach she made the films Raggedy Rose, The Nickel-Hopper, and One Hour Married (her last film), all co-written by Stan Laurel, and was directed by Leo McCarey in Should Men Walk Home?. The films were released with extensive publicity support from the Hollywood community, including her friend Mary Pickford.
+In 1926, she married actor Lew Cody, with whom she had appeared in Mickey in 1918.  They lived separately in nearby houses in Beverly Hills. However, Normand’s health was in decline due to tuberculosis. After an extended stay in Pottenger Sanitorium, she died on February 23, 1930 from tuberculosis in Monrovia, California at the age of 37.  She was interred as Mabel Normand-Cody at Calvary Cemetery, Los Angeles.</p>
+<p><b>Legacy</b><br>
+Mabel Normand has a star on the Hollywood Walk of Fame for her contributions to Motion Pictures at 6821 Hollywood Boulevard.
+Her film Mabel’s Blunder (1914) was added to the National Film Registry in December 2009. 
+In June 2010, the New Zealand Film Archive reported the discovery of a print of Normand’s film Won in a Closet (exhibited in New Zealand under its alternate title Won in a Cupboard), a short comedy previously believed lost. This film is a significant discovery, as Normand directed the movie and starred in the lead role, displaying her talents on both sides of the camera.</p>
+<p><b>Cultural references</b><br>
+A nod to Normand’s celebrity in early Hollywood came through the name of a leading character in the 1950 film Sunset Boulevard, “Norma Desmond”, which has been cited as a combination of the names Mabel Normand and William Desmond Taylor. The film also frequently mentions Normand by name. 
+The 1974 Broadway musical Mack & Mabel (Michael Stewart and Jerry Herman) fictionalized the romance between Normand and Mack Sennett. Normand was played by Bernadette Peters and Robert Preston portrayed Mack Sennett.
+“Hello Mabel” is a song by the Bonzo Dog Doo-Dah Band released in England on their second album The Doughnut in Granny’s Greenhouse (released as Urban Spaceman in the US.) in November 1968.
+Normand is mentioned during Series 2 Episode 1 of Downton Abbey by ambitious housemaid Ethel Parks. Daisy Mason (née Robinson), the kitchen maid, inquires what she is reading and Ethel responds, “Photoplay about Mabel Normand. She was nothing when she started, you know. Her father was a carpenter and they’d no money, and now she’s a shining film star.” 
+Singer/songwriter Stevie Nicks wrote a song about the actress entitled “Mabel Normand”, which appears on her 2014 album, 24 Karat Gold: Songs from the Vault.</p>
+<p><b>Fictional portrayals</b><br>
+Normand is played by actress Marisa Tomei in the 1992 film Chaplin opposite Robert Downey, Jr. as Charles Chaplin; by Penelope Lagos in the first biopic about Normand’s life, a 35-minute dramatic short film entitled Madcap Mabel (2010); and by Morganne Picard in the motion picture Return to Babylon (2013).
+In 2014, Normand was played on television by Andrea Deck in Series 2, Episode 8 of Mr Selfridge and by Kristina Thompson in the short film Mabel’s Dressing Room.</p>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    import Heroes from '../../heroes.js'
+
+    export default { data() { 
+        return { names: Heroes.filter(h => h.id === 'normand')[0].names } 
+    } }
+</script>
