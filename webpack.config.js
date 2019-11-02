@@ -1,7 +1,7 @@
 var path = require('path')
 var webpack = require('webpack')
 
-var publicPath = '/optique/dist/'
+var publicPath = '/dist/'
 
 module.exports = {
   entry: './src/main.js',
