@@ -1,3 +1,3 @@
 # Optique
 
-[Ksi Nazarova](https://vk.com/id5680564) design course work.
+[Ksi Nazarova](https://vk.com/id5680564)'s design coursework.
